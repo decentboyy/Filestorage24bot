@@ -75,8 +75,8 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🔊supp⊕r† gr⊕up", url="https://t.me/Sunrises_Bot_discussion_Group"),
-                        InlineKeyboardButton("🍿Main Channel", url="https://t.me/sunriseseditsoffical6")
+                        InlineKeyboardButton("🔊supp⊕r† gr⊕up", url="https://t.me/CodeNexuscommunity"),
+                        InlineKeyboardButton("🍿Main Channel", url="https://t.me/CodeNexus_community")
                     ],
                     [
                         InlineKeyboardButton("🤖Aß⊕ut ß⊕†", callback_data="aboutbot"),
@@ -91,8 +91,8 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🔊supp⊕r† gr⊕up", url="https://t.me/Sunrises_Bot_discussion_Group"),
-                        InlineKeyboardButton("🍿Main Channel", url="https://t.me/sunriseseditsoffical6")
+                        InlineKeyboardButton("🔊supp⊕r† gr⊕up", url="https://t.me/CodeNexuscommunity"),
+                        InlineKeyboardButton("🍿Main Channel", url="https://t.me/CodeNexus_community")
                     ],
                     [
                         InlineKeyboardButton("🤖Aß⊕ut ß⊕†", callback_data="aboutbot"),
@@ -138,7 +138,7 @@ async def main(bot: Client, message: Message):
                 return
 
         if message.from_user.id in Config.BANNED_USERS:
-            await message.reply_text("ꜱᴏʀʀʏ, ʏᴏᴜ ᴀʀᴇ ʙᴀɴɴᴇᴅ!\n\nContact [Support Group](https://t.me/Sunrises_Bot_discussion_Group)",
+            await message.reply_text("ꜱᴏʀʀʏ, ʏᴏᴜ ᴀʀᴇ ʙᴀɴɴᴇᴅ!\n\nContact [Support Group](https://t.me/CodeNexuscommunity)",
                                      disable_web_page_preview=True)
             return
 
@@ -368,8 +368,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🔊supp⊕r† gr⊕up", url="https://t.me/Sunrises_Bot_discussion_Group"),
-                        InlineKeyboardButton("🍿Main Channel", url="https://t.me/sunriseseditsoffical6")
+                        InlineKeyboardButton("🔊supp⊕r† gr⊕up", url="https://t.me/CodeNexuscommunity"),
+                        InlineKeyboardButton("🍿Main Channel", url="https://t.me/CodeNexus_community")
                     ],
                     [
                         InlineKeyboardButton("🤖Aß⊕ut ß⊕t", callback_data="aboutbot"),
@@ -388,8 +388,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🔊supp⊕r† gr⊕up", url="https://t.me/Sunrises_Bot_discussion_Group"),
-                        InlineKeyboardButton("🍿Main Channel", url="https://t.me/sunriseseditsoffical6")
+                        InlineKeyboardButton("🔊supp⊕r† gr⊕up", url="https://t.me/CodeNexuscommunity"),
+                        InlineKeyboardButton("🍿Main Channel", url="https://t.me/CodeNexus_community")
                     ],
                     [
                         InlineKeyboardButton("🤖Aß⊕ut ß⊕t", callback_data="aboutbot"),
@@ -412,7 +412,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 user = await bot.get_chat_member(channel_chat_id, cmd.message.chat.id)
                 if user.status == "kicked":
                     await cmd.message.edit(
-                        text="ꜱᴏʀʀʏ ꜱɪʀ, ʏᴏᴜ ᴀʀᴇ ʙᴀɴɴᴇᴅ ᴛᴏ ᴜꜱᴇ ᴍᴇ. ᴄᴏɴᴛᴀᴄᴛ ᴍʏ [Support Group](https://t.me/Sunrises_Bot_discussion_Group).",
+                        text="ꜱᴏʀʀʏ ꜱɪʀ, ʏᴏᴜ ᴀʀᴇ ʙᴀɴɴᴇᴅ ᴛᴏ ᴜꜱᴇ ᴍᴇ. ᴄᴏɴᴛᴀᴄᴛ ᴍʏ [Support Group](https://t.me/CodeNexuscommunity).",
                         disable_web_page_preview=True
                     )
                     return
@@ -435,7 +435,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 return
             except Exception:
                 await cmd.message.edit(
-                    text="ꜱᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ ᴡʀᴏɴɢ. ᴄᴏɴᴛᴀᴄᴛ ᴍʏ [Support Group](https://t.me/Sunrises_Bot_discussion_Group).",
+                    text="ꜱᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ ᴡʀᴏɴɢ. ᴄᴏɴᴛᴀᴄᴛ ᴍʏ [Support Group](https://t.me/CodeNexuscommunity).",
                     disable_web_page_preview=True
                 )
                 return
@@ -446,8 +446,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🔊supp⊕r† gr⊕up", url="https://t.me/Sunrises_Bot_discussion_Group"),
-                        InlineKeyboardButton("🍿Main Channel", url="https://t.me/sunriseseditsoffical6")
+                        InlineKeyboardButton("🔊supp⊕r† gr⊕up", url="https://t.me/CodeNexuscommunity"),
+                        InlineKeyboardButton("🍿Main Channel", url="https://t.me/CodeNexus_community")
                     ],
                     [
                         InlineKeyboardButton("🤖Aß⊕ut ß⊕t", callback_data="aboutbot"),
@@ -466,8 +466,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🔊supp⊕r† gr⊕up", url="https://t.me/Sunrises_Bot_discussion_Group"),
-                        InlineKeyboardButton("🍿Main Channel", url="https://t.me/sunriseseditsoffical6")
+                        InlineKeyboardButton("🔊supp⊕r† gr⊕up", url="https://t.me/CodeNexuscommunity"),
+                        InlineKeyboardButton("🍿Main Channel", url="https://t.me/CodeNexus_community")
                     ],
                     [
                         InlineKeyboardButton("🤖Aß⊕ut ß⊕t", callback_data="aboutbot"),
